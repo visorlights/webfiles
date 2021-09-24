@@ -1,0 +1,27 @@
+h1{
+  font-family: "Just Another Hand";
+  font-size: 10vh;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+}
+
+h2{
+  font-family: Jost;
+  font-weight: bold;
+}
+
+p{
+  font-family: Jost;
+}
+
+/*links*/
+a{
+  color: #569FF5;
+}
+#about{
+  margin: 30px 50px 30px 50px;
+}
+
+#pages{
+  margin: 50px 50px 50px 100px;
+}

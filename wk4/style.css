@@ -1,0 +1,40 @@
+/* comment heeee */
+
+
+ul {
+  color:red;
+  font-family: arial;
+}
+
+img {
+  width: 40vw;
+  margin: 20px;
+}
+
+#lists{
+  background-color: #000000;
+}
+
+h1{
+  color: red;
+  border: solid black 1px;
+  font-family: "Fjalla One";
+}
+/*assigning stype for section ids*/
+#top h1{
+  color: aquamarine
+}
+/*assigning style for classes*/
+.grey{
+  color: rgb(100,100,100);
+}
+/*assigns style only to <p> sections with class grey*/
+p.grey{
+  background-color: rgb(100,100,200);
+  color: rgb(155,0,80);
+}
+/*assigns to text within <span> tags. */
+span{
+  color:blue;
+  font-weight: bold;
+}
