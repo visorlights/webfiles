@@ -1,3 +1,16 @@
+:root{
+  --jeans: #569FF5;
+  --jeansLight: #3675BF;
+  --jeansDark: #99C8FF;
+
+  --pink: #FF6AB2;
+  --pinkHot: #ED3A90;
+  --pinkLight: #FF99CA;
+
+  --yellow: #FDE82F;
+
+}
+
 h1{
   font-family: "Just Another Hand";
   font-size: 10vh;
@@ -6,12 +19,12 @@ h1{
 }
 
 h2{
-  font-family: Jost;
+  font-family: "Jost";
   font-weight: bold;
 }
 
 p{
-  font-family: Jost;
+  font-family: "Jost";
 }
 
 /*links*/
@@ -25,3 +38,14 @@ a{
 #pages{
   margin: 50px 50px 50px 100px;
 }
+
+button{
+  background-color: var(--jeans);
+  color: white;
+}
+
+button:hover{
+  background-color: var(--pink);
+}
+
+button:active{}
