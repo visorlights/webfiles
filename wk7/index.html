@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>week 7 quote mchn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+  <h1 id="qText">Welcome to the quote machine, click the button to get a quote</h1>
+  <button type="button" id="buttonQuote">New Quote</button>
+</section>
+
+<section id="flex">
+  <div class="flexitem">
+    <h2>one</h2>
+  </div>
+  <div class="flexitem">
+    <h2>two</h2>
+  </div>
+  <div>
+    <h2>three</h2>
+  </div class="flexitem">
+</section>
+
+<script>
+  const quotes = ["I survived because the fire inside me burned brighter than the fire around me.", "Be yourself; everyone else is already taken.",
+  "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
+   "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.", "It is never too late to be what you might have been."  ];
+   let quoteCount = 0;
+
+   document.getElementById("buttonQuote").addEventListener("click", buttonClicked);
+
+   function buttonClicked(){
+    document.getElementById("qText").innerHTML = quotes[quoteCount];
+     quoteCount++;
+     if(quoteCount > 4){
+       quoteCount = 0;
+     }
+   }
+</script>
+</body>
+</html>
