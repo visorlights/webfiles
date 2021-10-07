@@ -3,10 +3,95 @@
 }
 
 div{
-  border: 1px solid black;
+  border: 3px solid var(--jeans);
   margin-left: 2vw;
 }
 
 .flexitem{
   flex-grow: 1;
+}
+
+:root{
+  --jeans: #569FF5;
+  --jeansLight: #3675BF;
+  --jeansDark: #99C8FF;
+
+  --pink: #FF6AB2;
+  --pinkHot: #ED3A90;
+  --pinkLight: #FF99CA;
+
+  --yellow: #FDE82F;
+
+  --grey: #8E97A1;
+
+}
+
+h1{
+  font-family: "Just Another Hand";
+  font-size: 5vw;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px;
+}
+
+h2{
+  font-family: "Jost";
+  font-weight: bold;
+}
+
+p{
+  font-family: "Jost";
+}
+
+ul{
+  font-family: "Jost";
+}
+
+img{
+  border: 3px dashed var(--pink);
+  width: 40vh;
+  margin: 10px 50px 80px 10px;
+}
+
+
+
+button{
+  background-color: var(--jeans);
+  font-size: 1vw;
+  color: white;
+  padding: 10px 25px;
+  margin: 10px 50px 50px 50px;
+  border: none;
+  outline: none;
+  box-shadow: 4px 7px var(--pink);
+
+}
+
+button:hover{
+  background-color: var(--pink);
+  box-shadow: 4px 7px var(--jeans);
+}
+
+button:active{
+  background-color: black;
+  box-shadow: 4px 7px var(--pink);
+}
+
+button:visited{
+  background-color: var(--yellow);
+  color: black;
+  box-shadow: 4px 7px var(--pink);
+
+}
+
+a{
+  color: #569FF5;
+  font-family: "Jost";
+}
+
+a:hover{
+  color: var(--pink);
+}
+
+a:visited{
+  color: var(--grey);
 }

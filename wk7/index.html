@@ -3,11 +3,16 @@
 <head>
   <title>week 7 quote mchn</title>
   <link rel="stylesheet" href="style.css">
+  <!-- main text font-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+
+<!-- header 1 font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Just+Another+Hand">
 </head>
 <body>
 <section>
   <h1 id="qText">Welcome to the quote machine, click the button to get a quote</h1>
-  <button type="button" id="buttonQuote">New Quote</button>
+  <button id="buttonQuote">New Quote</button>
 </section>
 
 <section id="flex">
@@ -20,6 +25,14 @@
   <div>
     <h2>three</h2>
   </div class="flexitem">
+</section>
+
+<section id="randomImg">
+  <h1>click the button for a random image I have saved</h1>
+  <button id="buttonImg">New Image</button>
+  <section id="imageDisplay">
+    <img id="rImg"src="" alt="image goes here">
+  </section>
 </section>
 
 <script>
@@ -37,6 +50,21 @@
        quoteCount = 0;
      }
    }
+
+  const rImages = ["e.png", "flavortown.jpg", "mst3k.png", "quint.gif", "skateordie.jpg", "spheal.gif", "disappoint.jpg"];
+  let imageCount = 0;
+
+  document.getElementById("buttonImg").addEventListener("click", imgButtonClicked);
+
+  function imgButtonClicked(){
+    image = document.getElementById("rImg");
+    image.src= "./assets/" + rImages[imageCount];
+    console.log("aaaaa");
+    imageCount++;
+    if(imageCount > 5){
+      imageCount = 0;
+    }
+  }
 </script>
 </body>
 </html>
