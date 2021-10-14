@@ -11,7 +11,7 @@
 </head>
 <body>
 <section>
-  <h1 id="qText">Welcome to the quote machine, click the button to get a quote</h1>
+  <h1 id="qText">Welcome to the quote machine, click the button to get a quote from a weird food-based post I like.</h1>
   <button id="buttonQuote">New Quote</button>
 </section>
 
@@ -36,9 +36,10 @@
 </section>
 
 <script>
-  const quotes = ["I survived because the fire inside me burned brighter than the fire around me.", "Be yourself; everyone else is already taken.",
-  "There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.",
-   "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.", "It is never too late to be what you might have been."  ];
+  const quotes = ["spilled cherry pepsi on the socks i'm knitting but the yarn is dark brown because i had premonitions of a pepsi disaster many years ago", "You walk into the kitchen and I’m wearing gloves and goggles and welding a sandwich together",
+  "got monster energy drink in my left eye n now i can see the ghosts of dudes named hunter with it",
+   "i think if you wanted to eat white chocolate you could just eat candle wax instead and not even notice the difference",
+   "unfortunately, on this platonic male outing at outback steakhouse, my partner has ordered a “blooming onion”, transforming this once casual affair into a romantic tryst"  ];
    let quoteCount = 0;
 
    document.getElementById("buttonQuote").addEventListener("click", buttonClicked);
@@ -46,7 +47,8 @@
    function buttonClicked(){
     document.getElementById("qText").innerHTML = quotes[quoteCount];
      quoteCount++;
-     if(quoteCount > 4){
+
+     if(quoteCount > quotes.length - 1 ){
        quoteCount = 0;
      }
    }
