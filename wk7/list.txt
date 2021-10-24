@@ -1,0 +1,29 @@
+sunday:
+  -sleep in
+  -eat something besides a bagel for breakfast maybe?
+  -if I don't sleep in, sleep early. Wishful thinking with insomnia and all, but god am I tired while writing this.
+monday:
+  -have something to bring to the class project?
+  -exercise
+  -eat before 2hr lab
+tuesday:
+  -wake up early enough to get remote 8 am lecture live since I hate watching them later?
+  -eat some kind of vegetable
+  -sleeeep
+wednesday:
+  -try again to sleep early for 8 am lecture tomorrow?
+  -exercise again
+  -eat before 2 hr lab
+thursday:
+  -refill meds
+  -get groceries
+  -sleeeep
+friday:
+  -have game night with friends, I think this week is Psychonauts 2?
+  -try to have most work done
+  -ffxiv destressing
+
+saturday:
+  -movie night with friends, no idea what is on the menu
+  -not sleep in too late?
+  -try very hard not to think about the future
