@@ -1,0 +1,109 @@
+:root{
+  --jeans: #569FF5;
+  --jeansDark: #3675BF;
+  --jeansLight: #99C8FF;
+
+  --pink: #FF6AB2;
+  --pinkHot: #ED3A90;
+  --pinkLight: #FF99CA;
+
+  --yellow: #FDE82F;
+
+  --grey: #8E97A1;
+
+}
+
+h1{
+  font-family: "Just Another Hand";
+  font-size: 10vh;
+  font-weight: bold;
+  margin: 20px 20px 20px 20px
+}
+
+h2{
+  font-family: "Cabin Condensed";
+  font-size: 200%;
+}
+
+h3{
+  font-family: "Cabin Condensed";
+  margin-top: 15px;
+  font-weight: normal;
+}
+button{
+  background-color: var(--jeans);
+  font-size: 150%;
+  color: white;
+  padding: 10px 25px;
+  margin: 10px 10px 10px 10px;
+  border: none;
+  outline: none;
+  box-shadow: 4px 7px var(--pink);
+}
+
+button:hover{
+  background-color: var(--pink);
+  box-shadow: 4px 7px var(--jeans);
+}
+
+button:active{
+  background-color: var(--yellow);
+  box-shadow: 4px 7px var(--pink);
+}
+
+button:visited{
+  background-color: black;
+  box-shadow: 4px 7px var(--pink);
+}
+
+.wrapper{
+  border: dashed 3px var(--jeans);
+  padding: 0px 30px 30px 30px;
+}
+
+#tabs{
+  display: flex;
+  background-color: var(--pink);
+  width: auto;
+  padding-left: 1px;
+  padding-right: 1px;
+  text-align: center;
+}
+
+.day{
+  flex-grow: 1;
+  height: 50px;
+  background-color: var(--jeans);
+  color: white;
+  width: auto;
+  margin: 0px 1px 0px 1px;
+}
+
+#list{
+  width: auto;
+  background-color:white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 5px var(--pinkLight);
+  padding: 20px 20px 20px 20px;
+}
+
+
+#taskheader{
+  color: white;
+  height: 80px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#content{
+  background-color: var(--pink);
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.listItem{
+  flex-grow: 1;
+  height: 50px;
+  width: auto;
+}
