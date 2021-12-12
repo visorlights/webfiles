@@ -5,13 +5,17 @@
   <link rel="stylesheet" href="style.css">
   <!-- main text font-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
-
   <!-- header 1 font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Just+Another+Hand">
+
+  <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
-  <h1>what is this/where am i?</h1>
+  <div class="topbar">
+    <h1>what is this/where am i?</h1>
+  </div>
+
   <section id="about">
 
     <p>Repository page for Davion. CSCI major. I do a bit of art, music,
@@ -20,22 +24,40 @@
 
   <section id="pages">
     <h2>Pages</h2>
-    <p> <a href="./wk2/index.html">Wiki page</a> ~ <a href="./wk7/index.html">Javascript page(wk 7)</a></p>
-    <p> <a href="./wk9/index.html">Midterm</a> ~ </p>
+    <p> <a href="./wk2/index.html">Wiki page</a> ~ <a href="./wk7/index.html">Javascript page(wk 7)</a> ~
+   <a href="./wk9/index.html">Midterm</a> ~ <a href="./final/index.html">final</a> </p> 
     <button id="button">button?</button>
-    <p id="textChange">text?</p>
-    <p> more to come, presumably. </p>
+    <p> I'm not really sure what to do for responsive design, so here's a
+      grid with some assets a friend and I have made for a movie night? The grid changes
+      depending on window width.</p>
   </section>
 
-<script>
-    console.log("script working");
-    document.getElementById("button").addEventListener("click", buttonClicked);
+  <div id="imageGrid">
+    <div class="gridItem">
 
-    function buttonClicked(){
-      alert("you pushed the button");
-      document.getElementById("textChange").innerHTML = "aaaa";
-    }
-</script>
+    </div>
+    <div class="gridItem">
+
+    </div>
+    <div class="gridItem">
+
+    </div>
+    <div class="gridItem">
+
+    </div>
+    <div class="gridItem">
+
+    </div>
+    <div class="gridItem">
+
+    </div>
+    <div class="gridItem">
+
+    </div>
+  <div>
+
+
+<script type="text/javascript" src="index.js"></script>
 
 </body>
 </html>

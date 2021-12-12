@@ -5,6 +5,7 @@ let weekActivities = new Array(21);
 let prevDay;
 console.log("hello??");
 
+
 for(i=0; i < document.getElementsByClassName('day').length; i++){
   //give day divs the same id as their label; ie, day[0] id = 'sunday'
   document.getElementsByClassName('day')[i].id = days[i];

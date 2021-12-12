@@ -1,0 +1,80 @@
+:root{
+  --black: #000000;
+  --hotRedPink: #EB256B;
+  --purpleMed: #503f90;
+  --purpleLight: #a087ff;
+  --blue: #3F69FF;
+  --greyPurple: #6D657E;
+}
+
+body{
+  background-color:var(--black);
+}
+
+h1{
+  font-family: "Caveat";
+  font-size: 48px;
+  color: var(--hotRedPink);
+  text-align:center;
+}
+
+h2{
+  font-family: "Caveat";
+  font-size: 30px;
+  color: var(--hotRedPink);
+}
+
+p{
+  font-family: "Roboto Condensed";
+  font-weight: lighter;
+  color: var(--hotRedPink);
+  text-align: center;
+}
+
+hr{
+  color: var(--purpleMed);
+  border: 1px solid;
+}
+
+a{
+  color: var(--purpleLight);
+  font-family: "Caveat";
+  font-size: 22px;
+}
+
+a:hover{
+  color: var(--blue);
+}
+
+a:visited{
+  color: var(--greyPurple);
+}
+
+#grid{
+  display: grid;
+  margin: 0vh 5vw 0vh 5vw;
+}
+
+@media only screen and (max-width:599px){
+  #grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width:600px){
+  #grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width:1200px){
+  #grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.image img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
